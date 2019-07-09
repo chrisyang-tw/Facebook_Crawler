@@ -19,9 +19,6 @@ print('請先輸入您的 Facebook 帳號密碼，此僅會作為一次性使用
 username = input('>> 請輸入您的帳號，輸入完成按下 enter 鍵：')
 password = input('>> 請輸入您的密碼，輸入完成按下 enter 鍵：')
 
-username = 'b04303051@g.ntu.edu.tw'
-password = 'Angelina01'
-
 while True:
     temp_input = input('\n>> 請輸入粉專貼文網址，不再輸入請按大寫 N 並按下 enter 鍵 (開頭是 \'https://www.facebook.com/...\')：')
     if (temp_input != 'N') and ('https://www.facebook.com/' in temp_input):
